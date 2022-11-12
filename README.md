@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ChromeDriver is also needed and can be downloaded [here](https://chromedriver.chromium.org/downloads).
 
 ### Data collection and cleansing
-Based on a search url and by using selenium all the results are aqcuired creating and list of job titles, company names and job links.
+Based on a search url and by using selenium, all the results are aqcuired creating a list of job titles, company names and job links.
 Using the list of job links job descriptions are then collected, for jobs that have a relevant to the search title. Jobs with descriptions not in english are also discarded.
 
 ### Data processing
@@ -29,7 +29,7 @@ The processing includes transforming text to lowercase, removing tabulation, pan
 ### Visualization
 The results are visualized in a simple wordcloud to showcase the most required skills regarding a set of job descriptions.
 
-For the search of machine learning engineer/ data scientist the result is extracted from approximately 300 job descriptions and looks like this:
+For the search of machine learning engineer/ data scientist, the result is extracted from approximately 300 job descriptions and looks like this:
 ![wordcloud_results](https://user-images.githubusercontent.com/80923325/201470625-585af273-159a-402e-8abc-ff1715d63647.png)
 
 ## Disclaimer
