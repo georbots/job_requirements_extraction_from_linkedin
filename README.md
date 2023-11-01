@@ -32,6 +32,4 @@ The results are visualized in a simple wordcloud to showcase the most required s
 For the search of machine learning engineer/ data scientist, the result is extracted from approximately 300 job descriptions and looks like this:
 ![wordcloud_results](https://user-images.githubusercontent.com/80923325/201470625-585af273-159a-402e-8abc-ff1715d63647.png)
 
-## Disclaimer
-This project was built only to experiment on web scraping and explore data science concepts. It is not recommended to use by all means.
   
